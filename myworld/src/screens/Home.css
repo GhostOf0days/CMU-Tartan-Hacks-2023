@@ -111,7 +111,7 @@ Link {
   height: auto;
   border-radius: 1%;
   z-index: 5;
-  border: 2px solid #192E4D;
+  box-shadow: 0 0px 20px -5px #041140;
 }
 
 h3 {
