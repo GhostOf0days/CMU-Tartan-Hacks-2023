@@ -44,8 +44,6 @@ body {
 
 .islandImg {
   position: absolute;
-  margin-left: 2rem;
-  margin-right: 2rem;
   cursor: pointer;
   justify-content: center;
 }
@@ -87,6 +85,7 @@ body {
   margin-left: 35rem;
   width: 200px;
   height: auto;
+  z-index: 999;
 }
 
 .island2 {

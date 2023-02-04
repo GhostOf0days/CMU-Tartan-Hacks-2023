@@ -70,37 +70,44 @@ function Home() {
     <div className="Home">
       <div className='islandContainer'>
         <div className="islandImg x1 wobble">
-            <img className="island1" src={islandPic} />
+          <Link to='/localPage' >
             <h3 className='headComm'>Community Issues</h3>
+            <img className="island1" src={islandPic} />
+          </Link>
         </div>
 
         <div className="islandImg x2 wobble">
-            <img className="island2" src={islandPic2} />
+          <Link to='/eventPage' >
             <h3 className='headEvent'>Events</h3>
+            <img className="island2" src={islandPic2} />
+
+          </Link>
+
         </div>
 
         <div className="islandImg x3 wobble">
-            <Link to='/eventPage' >
-            <h3 className='headIdea'>Ideas</h3>
-              <img className="island3" src={islandPic3} />
-            
-            </Link>
+          <Link to='/ideaPage'>
+          <h3 className='headIdea'>Ideas</h3>
+          <img className="island3" src={islandPic3} />
+
+          </Link>
+          
         </div>
 
 
         <div className="islandImg x4 wobble">
-            <img className="island4" src={islandPic4} />
-            <h3 className='headVoting'>Voting</h3>
+          <img className="island4" src={islandPic4} />
+          <h3 className='headVoting'>Voting</h3>
         </div>
 
       </div>
 
       <div className="map">
-      <img className="mapImg" src={Map} />
+        <img className="mapImg" src={Map} />
       </div>
 
       <div className='buttonContainer'>
-        <div className="button"> <FaPlus color = '#ffffff'/> </div>
+        <div className="button"> <FaPlus color='#ffffff' /> </div>
       </div>
 
     </div>

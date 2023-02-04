@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import EventPage from './component/eventsPage/EventPage';
+import LocalPage from './component/eventsPage/localIssues'
+import IdeaPage from './component/eventsPage/ideaPage';
 import {
   createBrowserRouter,
   RouterProvider
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
   {
     path: "/eventPage",
     element: <EventPage />,
+  },
+  {
+    path: "/localPage",
+    element: <LocalPage />,
+  },
+  {
+    path: "/ideaPage",
+    element: <IdeaPage />,
   },
 
 ]);
