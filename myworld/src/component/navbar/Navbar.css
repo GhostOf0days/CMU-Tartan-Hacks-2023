@@ -1,0 +1,64 @@
+.navbar {
+    width: 100vw;
+    background-color: #192E4D;
+    color: #ffffff;
+    font-family: 'Jockey One';
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+  }
+  
+  .head {
+    font-size: 24px;
+    margin-left: 6.5rem;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .nav {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .nav:hover{
+    color: white;
+    outline: #ffffff;
+    font-size: 22px;
+    transition: font-size 0.8s ease;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: font-size;
+    cursor: pointer;
+  }
+  
+  .links{
+    margin-right: 6.5rem;
+  }
+  
+  .project {
+    cursor: pointer;
+    color: #D62839;
+  }
+  
+  .project:hover{
+    color: #D62839;
+    font-size: 22px;
+    transition: font-size 0.8s ease;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: font-size;
+  }
+  
+  span {
+    color: #D62839;
+  }
+  

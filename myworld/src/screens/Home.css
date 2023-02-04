@@ -1,0 +1,10 @@
+@import './Home.js'; 
+img {
+  width: 600px;
+  height: 600px;
+}
+
+.Home {
+  width: 100%;
+  height: 100%;
+}

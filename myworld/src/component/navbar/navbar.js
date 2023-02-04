@@ -1,41 +1,19 @@
 import React from 'react';
-import {
-    Nav,
-    NavLink,
-    Bars,
-    NavMenu,
-    NavBtn,
-    NavBtnLink,
-} from './NavbarElements';
+import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <>
-            <Nav>
-                <Bars />
+        <div className='navbar'>
+        <div to='/' className='head'>
+        <h1>An<span>Qi.</span> is carrying us</h1>
+        </div>
 
-                <NavMenu>
-                    <NavLink to='/idea_friday' activeStyle>
-                        Idea Friday
-                    </NavLink>
-                    <NavLink to='/local_issues' activeStyle>
-                        Local Issues
-                    </NavLink>
-                    <NavLink to='/funding_proposal_promotion' activeStyle>
-                        Funding Proposal & Promotion
-                    </NavLink>
-                    <NavLink to='/sports' activeStyle>
-                        Sports
-                    </NavLink>
-                    <NavLink to='/sign_up' activeStyle>
-                        Sign Up
-                    </NavLink>
-                </NavMenu>
-                <NavBtn>
-                    <NavBtnLink to='/sign_in'>Sign In</NavBtnLink>
-                </NavBtn>
-            </Nav>
-        </>
+        <div className='links'>
+            <div to='#project' smooth className='nav project'>Project</div>
+            <div to='#about' smooth className='nav'>About</div>
+            <div className='nav' href='/'>Resume</div>
+        </div>
+        </div>
     );
 };
 
