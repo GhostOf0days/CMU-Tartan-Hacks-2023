@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <NavBar />
     <div className="content">
-      {/* <Home />  */}
-      <EventPage />
+      <Home /> 
+      {/* <EventPage /> */}
 
     </div>
 

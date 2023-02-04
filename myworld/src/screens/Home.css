@@ -5,13 +5,6 @@
   width: 100vw;
 }
 
-/* body {
-  margin: 0;
-  background: #0E4C79;
-  width: 100%;
-  height: 100%;
-} */
-
 .island {
   width: 230px;
   height: 240px;
@@ -21,90 +14,186 @@
 body {
   background: #0E4C79;
 }
+.buttonContainer {
+  bottom: -10rem;
+  justify-content: center;
+  align-items: center;  
+  align-items: center;
+}
 
 .button {
+  position: relative;
   display: flex;
   margin: auto;
+  bottom: -40px;
   justify-content: center;
   align-items: center;
   height: 50px;
-  width: 30px;
+  width: 50px;
+  background-color:#6A994E;
   border-radius: 5px;
   cursor: pointer;
-
 }
 
-.buttonContainer {
-  display: relative;
-  top: 40px;
-  display: flex;
-  align-items: center;
-}
 
 
 .islandContainer {
-
   display: flex;
   flex-wrap: wrap;
 }
 
 .islandImg {
+  position: absolute;
   margin-left: 2rem;
   margin-right: 2rem;
+  cursor: pointer;
+  justify-content: center;
 }
 
-.x1 {
+.islandImg .x1 {
   display: flex;
-  animation: x 15s linear infinite alternate;
-  position: relative
+  position: absolute;
 }
 
-.y1 {
-  animation: y 12s linear infinite alternate;
-  position: relative
+.islandImg .x2 {
+  display: flex;
+  position: absolute;
+}
+
+.headComm {
+  position: relative;
+  margin-left: 35rem;
+}
+
+.headEvent {
+  position: absolute;
+  left: 53rem;
+  bottom: -25rem;
+}
+
+.headIdea {
+  position: absolute;
+  left: 74rem;
+  bottom: -36rem;
+}
+
+.headVoting {
+  position: absolute;
+  left: 80rem;
+  top: 14rem;
+}
+
+.island1 {
+  margin-left: 35rem;
+  width: 200px;
+  height: auto;
+}
+
+.island2 {
+  margin-left: 53rem;
+  margin-bottom: -25rem;
+  transform: rotate(200deg);
+  width: 250px;
+  height: auto;
+}
+
+.island3 {
+  margin-left: 70rem;
+  margin-bottom: -35rem;
+  transform: rotate(10deg);
+  width: 100px;
+  height: auto;
+}
+
+.island4 {
+  margin-left: 80rem;
+  margin-top: 5rem;
+  transform: rotate(80deg);
+  width: 140px;
+  height: auto;
 }
 
 
-.x2 {
-  animation: x 17s linear infinite alternate;
-  position: absolute
+.mapImg {
+  position: relative;
+  bottom: -8rem;
+  margin: 2rem;
+  width: 30rem;
+  height: auto;
+  border-radius: 1%;
+  z-index: 5;
+  border: 2px solid #192E4D;
 }
 
-.y2 {
-  animation: y 13s linear infinite alternate;
-  position: absolute
-}
-
-
-.x3 {
-  animation: x 12s linear infinite alternate;
-  position: relative
-}
-
-.y3 {
-  animation: y 15s linear infinite alternate;
-  position: relative
+h3 {
+  color: #ffff;
 }
 
 
-.x4 {
-  animation: x 18s linear infinite alternate;
-  position: absolute
-}
+/* Ether float */
+@keyframes wobleHorizontal {
+  0% {
+    margin-left: 0px;
+  }
 
-.y4 {
-  animation: y 16s linear infinite alternate;
-  position: absolute
-}
+  20% {
+    margin-left: 9px;
+  }
 
-@keyframes x {
+  25% {
+    margin-left: 10px;
+  }
+
+  50% {
+    margin-left: 0px;
+  }
+
+  75% {
+    margin-left: -10px;
+  }
+
+  95% {
+    margin-left: -2px;
+  }
+
   100% {
-    transform: translateX(calc(100vw -100px));
+    margin-left: 0px;
   }
 }
 
-@keyframes y {
-  100% {
-    transform: translateY(calc(100vh -100px));
+
+@keyframes wobleVertical {
+  0% {
+    margin-top: 0px;
   }
+
+  20% {
+    margin-top: 9px;
+  }
+
+  25% {
+    margin-top: 10px;
+  }
+
+  50% {
+    margin-top: 0px;
+  }
+
+  75% {
+    margin-top: -10px;
+  }
+
+  95% {
+    margin-top: -2px;
+  }
+
+  100% {
+    margin-top: 0px;
+  }
+}
+
+.wobble {
+  animation:
+    wobleHorizontal 10s infinite linear,
+    wobleVertical 8s infinite linear;
 }

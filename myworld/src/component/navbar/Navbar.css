@@ -1,64 +1,75 @@
 .navbar {
-    width: 100vw;
-    background-color: #192E4D;
-    color: #ffffff;
-    font-family: 'Jockey One';
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 999;
-  }
-  
-  .head {
-    font-size: 24px;
-    margin-left: 6.5rem;
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  .nav {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    color: #ffffff;
-    text-decoration: none;
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 18px;
-  }
-  
-  .nav:hover{
-    color: white;
-    outline: #ffffff;
-    font-size: 22px;
-    transition: font-size 0.8s ease;
-    transition-duration: 0.8s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    transition-property: font-size;
-    cursor: pointer;
-  }
-  
-  .links{
-    margin-right: 6.5rem;
-  }
-  
-  .project {
-    cursor: pointer;
-    color: #D62839;
-  }
-  
-  .project:hover{
-    color: #D62839;
-    font-size: 22px;
-    transition: font-size 0.8s ease;
-    transition-duration: 0.8s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    transition-property: font-size;
-  }
-  
-  span {
-    color: #D62839;
-  }
-  
+  width: 100vw;
+  height: 6vw;
+  background-color: #0E4C79;
+  color: #ffffff;
+  font-family: 'Jockey One';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+
+.logo {
+  height: auto;
+  width: 160px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.head {
+  font-size: 6rem;
+  margin-left: 6.5rem;
+  color: red;
+  text-decoration: none;
+}
+
+.nav {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nav:hover{
+  color: #ffffff;
+  outline: #ffffff;
+  font-size: 22px;
+  transition: font-size 0.8s ease;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: font-size;
+  cursor: pointer;
+}
+
+.links{
+  margin-right: 6.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.project {
+  cursor: pointer;
+  color: #ffff;
+}
+
+.project:hover{
+  color: #ffff;
+  top: 50px;
+  font-size: 22px;
+  transition: font-size 0.8s ease;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: font-size;
+}
+
+span {
+  color: #ffffff;
+}

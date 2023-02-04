@@ -5,6 +5,9 @@ import islandPic from '../img/island1.png'
 import islandPic2 from '../img/island1.png'
 import islandPic3 from '../img/island1.png'
 import islandPic4 from '../img/island1.png'
+import Map from '../img/homeMap.png'
+import { FaPlus } from "react-icons/fa";
+
 //import styled from "styled-components";
 
 
@@ -65,34 +68,35 @@ function Home() {
   return (
     <div className="Home">
       <div className='islandContainer'>
-        <div className="islandImg x1">
-          <a href="https://reactjs.org" target="_blank" rel="noreferrer">
-            <img className="island" src={islandPic} />
-          </a>
+        <div className="islandImg x1 wobble">
+            <img className="island1" src={islandPic} />
+            <h3 className='headComm'>Community Issues</h3>
         </div>
 
-        <div className="x2">
-          <a href="https://reactjs.org" target="_blank" rel="noreferrer">
-            <img className="island" src={islandPic2} />
-          </a>
+        <div className="islandImg x2 wobble">
+            <img className="island2" src={islandPic2} />
+            <h3 className='headEvent'>Events</h3>
         </div>
 
-        <div class="x3">
-          <a href="https://reactjs.org" target="_blank" rel="noreferrer">
-            <img className="island" src={islandPic3} />
-          </a>
+        <div className="islandImg x3 wobble">
+            <img className="island3" src={islandPic3} />
+            <h3 className='headIdea'>Ideas</h3>
         </div>
 
-        <div class="x4">
-          <a href="https://reactjs.org" target="_blank" rel="noreferrer">
-            <img className="island" src={islandPic4} />
-          </a>
+
+        <div className="islandImg x4 wobble">
+            <img className="island4" src={islandPic4} />
+            <h3 className='headVoting'>Voting</h3>
         </div>
 
       </div>
 
+      <div className="map">
+      <img className="mapImg" src={Map} />
+      </div>
+
       <div className='buttonContainer'>
-        <button className="button" onClick={() => alert("hello")}> + </button>
+        <div className="button"> <FaPlus color = '#ffffff'/> </div>
       </div>
 
     </div>
