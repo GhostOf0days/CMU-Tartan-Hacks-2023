@@ -69,7 +69,7 @@ function Home() {
   return (
     <div className="Home">
       <div className='islandContainer'>
-        
+
         <div className="islandImg x1 wobble">
           <Link to='/localPage' >
             <h3 className='headComm'>Community Issues</h3>
@@ -88,10 +88,10 @@ function Home() {
 
         <div className="islandImg x3 wobble">
           <Link to='/ideaPage'>
-          <h3 className='headIdea'>Ideas</h3>
-          <img className="island3" src={islandPic3} />
+            <h3 className='headIdea'>Ideas</h3>
+            <img className="island3" src={islandPic3} />
           </Link>
-          
+
         </div>
 
 
@@ -109,6 +109,13 @@ function Home() {
       <div className='buttonContainer'>
         <div className="button"> <FaPlus color='#ffffff' /> </div>
       </div>
+
+      <div class='box'>
+        <div class='wave -one'></div>
+        <div class='wave -two'></div>
+        <div class='wave -three'></div>
+      </div>
+
 
     </div>
   );

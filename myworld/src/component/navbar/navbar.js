@@ -16,11 +16,11 @@ const Navbar = () => {
 
             </div>
 
-            <div className='links'>
+            {/* <div className='links'>
                 <div to='#project' className='nav project'>First Idea Friday</div>
                 <div to='#about' className='nav'>Local Issues</div>
                 <div className='nav' href='/'>Events</div>
-            </div>
+            </div> */}
         </div>
     );
 };
