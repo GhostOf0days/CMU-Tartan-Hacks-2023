@@ -1,7 +1,6 @@
 import './App.css';
-import NavBar from './component/navbar/Navbar';
+import NavBar from './component/navbar/navbar';
 import Home from './screens/Home'
-import className from 'classnames';
 
 function App() {
   return (
