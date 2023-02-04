@@ -1,6 +1,6 @@
 .eventPage {
     position: relative;
-    top: 4rem;
+    top: 5rem;
     font-size: larger;
     background-color: #0E4C79;
     height: 90.2vh;
@@ -67,4 +67,8 @@ h2 {
 .news.show {
     max-height: auto;
     max-height: 9999px;
+}
+
+span {
+    color: #D62839
 }

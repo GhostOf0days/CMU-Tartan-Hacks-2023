@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './EventPage.css'
 import { FaPlus, FaMinus, FaMapMarkerAlt } from "react-icons/fa";
 import EventData from '../../sampleData/recreationalSample'
+import NavBar from '../navbar/navbar';
 
 function EventPage() {
     const data = EventData
@@ -16,6 +17,10 @@ function EventPage() {
 
 
     return (
+        <div className="wholePage">
+            <NavBar />
+
+        
         <div className='eventPage'>
             <div className="eventInfo">
                 <div className="header">
@@ -27,7 +32,7 @@ function EventPage() {
                             <div className="eventDetail">
                                 <div className="eventName" onClick={() => toggle(id)}>
                                     <h2>{item.title}</h2>
-                                    <span>{selected === id ? <FaMinus /> : <FaPlus />}</span>
+                                    <span className='iconSpan'>{selected === id ? <FaMinus /> : <FaPlus />}</span>
                                 </div>
                                 <div className={
                                     selected === id ? 'news show' : 'news'
@@ -49,6 +54,7 @@ function EventPage() {
 
                 </div>
             </div>
+        </div>
         </div>
     )
 }

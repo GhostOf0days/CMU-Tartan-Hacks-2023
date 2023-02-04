@@ -7,6 +7,7 @@ import islandPic3 from '../img/island1.png'
 import islandPic4 from '../img/island1.png'
 import Map from '../img/homeMap.png'
 import { FaPlus } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 //import styled from "styled-components";
 
@@ -79,8 +80,11 @@ function Home() {
         </div>
 
         <div className="islandImg x3 wobble">
-            <img className="island3" src={islandPic3} />
+            <Link to='/eventPage' >
             <h3 className='headIdea'>Ideas</h3>
+              <img className="island3" src={islandPic3} />
+            
+            </Link>
         </div>
 
 

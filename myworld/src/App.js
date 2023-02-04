@@ -1,7 +1,6 @@
 import './App.css';
 import NavBar from './component/navbar/navbar';
 import Home from './screens/Home';
-import EventPage from './component/eventsPage/EventPage';
 
 function App() {
   return (
@@ -9,8 +8,6 @@ function App() {
       <NavBar />
     <div className="content">
       <Home /> 
-      {/* <EventPage /> */}
-
     </div>
 
   </div>
