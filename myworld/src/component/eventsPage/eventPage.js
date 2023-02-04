@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './EventPage.css'
-import { FaPlus, FaMinus } from "react-icons/fa";
+import { FaPlus, FaMinus, FaMapMarkerAlt } from "react-icons/fa";
 import EventData from '../../sampleData/recreationalSample'
 
 function EventPage() {
@@ -36,7 +36,7 @@ function EventPage() {
                                         {item.date}
                                     </div>
                                     <div className="eventLocation">
-                                        <span>Location:</span> {item.location}
+                                        <span><FaMapMarkerAlt /></span> {item.location}
                                     </div>
                                     <div className="eventDecs">
                                         {item.desc}
