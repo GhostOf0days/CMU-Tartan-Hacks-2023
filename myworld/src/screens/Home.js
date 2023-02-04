@@ -69,39 +69,55 @@ function Home() {
   return (
     <div className="Home">
       <div className='islandContainer'>
+
         <div className="islandImg x1 wobble">
-            <img className="island1" src={islandPic} />
+          <Link to='/localPage' >
             <h3 className='headComm'>Community Issues</h3>
+            <img className="island1" src={islandPic} />
+          </Link>
         </div>
 
         <div className="islandImg x2 wobble">
-            <img className="island2" src={islandPic2} />
+          <Link to='/eventPage' >
             <h3 className='headEvent'>Events</h3>
+            <img className="island2" src={islandPic2} />
+
+          </Link>
+
         </div>
 
         <div className="islandImg x3 wobble">
-            <Link to='/eventPage' >
+          <Link to='/ideaPage'>
             <h3 className='headIdea'>Ideas</h3>
-              <img className="island3" src={islandPic3} />
-            
-            </Link>
+            <img className="island3" src={islandPic3} />
+          </Link>
+
         </div>
 
 
         <div className="islandImg x4 wobble">
-            <img className="island4" src={islandPic4} />
-            <h3 className='headVoting'>Voting</h3>
+          <img className="island4" src={islandPic4} />
+          <h3 className='headVoting'>Voting</h3>
         </div>
 
       </div>
 
-      <div className="map">
-      <img className="mapImg" src={Map} />
+      <div className = "map">
+        /* This is the Google Map that allows people to look nearby where they are located */
+        <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20Pittsburgh+(Carnegie%20Mellon%20University)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        <p>Look at upcoming Events!</p>
       </div>
 
       <div className='buttonContainer'>
-        <div className="button"> <FaPlus color = '#ffffff'/> </div>
+        <div className="button"> <FaPlus color='#ffffff' /> </div>
       </div>
+
+      <div class='box'>
+        <div class='wave -one'></div>
+        <div class='wave -two'></div>
+        <div class='wave -three'></div>
+      </div>
+
 
     </div>
   );
