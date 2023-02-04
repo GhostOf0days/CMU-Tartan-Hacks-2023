@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import './EventPage.css'
 import { FaPlus, FaMinus } from "react-icons/fa";
 import localIssuesSampleData from '../../sampleData/localIssuesSample'
+import NavBar from '../navbar/navbar';
+
 
 function LocalIssues() {
     const data = localIssuesSampleData
@@ -16,6 +18,8 @@ function LocalIssues() {
 
 
     return (
+        <div className="wholePage">
+            <NavBar />
         <div className='localIssuesPage'>
             <div className="eventInfo">
                 <div className="header">
@@ -49,6 +53,7 @@ function LocalIssues() {
 
                 </div>
             </div>
+        </div>
         </div>
     )
 }
