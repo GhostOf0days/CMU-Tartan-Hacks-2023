@@ -46,6 +46,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2023 [Jaisal Patel](https://github.com/0dayReaper).<br />
 This project is [MIT License](https://github.com/0dayReaper/CMU-Tartan-Hacks-2023/blob/main/LICENSE.md) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
