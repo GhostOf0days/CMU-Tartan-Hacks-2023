@@ -52,5 +52,5 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2023 [Jaisal Patel](https://github.com/0dayReaper).<br />
+Copyright © 2023 [Jaisal Patel](https://github.com/0dayReaper), [Anqi Chen](https://github.com/SapheSaber), and [Richard Ahn](https://github.com/RICHARDAHN1219). <br />
 This project is [MIT License](https://github.com/0dayReaper/CMU-Tartan-Hacks-2023/blob/main/LICENSE.md) licensed.
