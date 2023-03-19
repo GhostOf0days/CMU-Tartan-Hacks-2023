@@ -28,11 +28,19 @@ npm run start
 npm run test
 ```
 
-## Author
+## Authors
 
 👤 **Jaisal Patel**
 
 * Github: [@0dayReaper](https://github.com/0dayReaper)
+
+👤 **Anqi Chen**
+
+* Github: [@SapheSaber](https://github.com/SapheSaber)
+
+👤 **Richard Ahn**
+
+* Github: [@RICHARDAHN1219](https://github.com/RICHARDAHN1219)
 
 ## 🤝 Contributing
 
