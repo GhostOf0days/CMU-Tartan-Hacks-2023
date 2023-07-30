@@ -1,56 +1,59 @@
 import * as React from 'react';
 
-class Local_Issues{
-    constructor(dateUpdate, mostRecentStatus, date, summary, description){
-        this.summary = summary;
-        this.dateUpdate = dateUpdate;
-        this.date = date;
-        this.mostRecentStatus = mostRecentStatus;
-        this.description = description;
-    }
-    
-    get summary() {
-        return this.summary;
-    }
+class Local_Issues {
+	constructor(dateUpdate, mostRecentStatus, date, summary, description) {
+		this.summary = summary;
+		this.dateUpdate = dateUpdate;
+		this.date = date;
+		this.mostRecentStatus = mostRecentStatus;
+		this.description = description;
+	}
 
-    get description() {
-        return this.description;
-    }
+	get summary() {
+		return this.summary;
+	}
 
-    get mostRecentStatus() {
-        return this.mostRecentStatus;
-    }
+	get description() {
+		return this.description;
+	}
 
-    get date() {
-        return this.date;
-    }
+	get mostRecentStatus() {
+		return this.mostRecentStatus;
+	}
 
-    get dateUpdate() {
-        return this.dateUpdate;
-    }
+	get date() {
+		return this.date;
+	}
 
-    set summary(x) {
-        this.summary = x;
-    }
+	get dateUpdate() {
+		return this.dateUpdate;
+	}
 
-    set description(x) {
-        this.description = x;
-    }
+	set summary(x) {
+		this.summary = x;
+	}
 
-    set mostRecentStatus(x) {
-        this.mostRecentStatus = x;
-    }
+	set description(x) {
+		this.description = x;
+	}
 
-    set date(x) {
-        this.date = x;
-    }
+	set mostRecentStatus(x) {
+		this.mostRecentStatus = x;
+	}
 
-    set dateUpdate(x) {
-        this.dateUpdate = x;
-    }
-    
+	set date(x) {
+		this.date = x;
+	}
+
+	set dateUpdate(x) {
+		this.dateUpdate = x;
+	}
 }
 
-const scottishTerrierBan = new Local_Issues("2/4/2023", "Protests are currently underway acrposs CMU campus.",
-                                            "2/3/2023", "Scottish Terriers Banned", 
-                                            "Scottish Terriers were recently banned on CMU campus after Scotty caused havoc across campus.");
+const scottishTerrierBan = new Local_Issues(
+	'2/4/2023',
+	'Protests are currently underway acrposs CMU campus.',
+	'2/3/2023',
+	'Scottish Terriers Banned',
+	'Scottish Terriers were recently banned on CMU campus after Scotty caused havoc across campus.',
+);

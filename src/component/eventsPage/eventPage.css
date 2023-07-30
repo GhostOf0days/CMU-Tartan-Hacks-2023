@@ -1,74 +1,72 @@
 .eventPage {
-    position: relative;
-    top: 5rem;
-    font-size: larger;
-    background-color: #0E4C79;
-    height: 90.2vh;
+	position: relative;
+	top: 5rem;
+	font-size: larger;
+	background-color: #0e4c79;
+	height: 90.2vh;
 }
 
 .eventInfo {
-    margin-top: 5px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+	margin-top: 5px;
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
 
 .eventInfo .header {
-    color: #ffffff;
-
+	color: #ffffff;
 }
 
 .events {
-    background-color: #D9D9D9;
-    border-radius: 0.5rem;
-    
+	background-color: #d9d9d9;
+	border-radius: 0.5rem;
 }
 
 .eventDetail {
-    margin: 2rem;
+	margin: 2rem;
 }
 
 .eventName {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
-    cursor: pointer;
-    margin-bottom: 1.2rem;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+	cursor: pointer;
+	margin-bottom: 1.2rem;
 }
 
 h2 {
-    margin-top: 5px;
+	margin-top: 5px;
 }
 
 .eventDate {
-    font-size: 16px;
-    color: 'black';
-    padding: 0.8rem;
-    background-color: rgb(177, 179, 179);
-    width: fit-content;
-    margin-top: 1rem;
-    border-radius: 0.5rem;
+	font-size: 16px;
+	color: 'black';
+	padding: 0.8rem;
+	background-color: rgb(177, 179, 179);
+	width: fit-content;
+	margin-top: 1rem;
+	border-radius: 0.5rem;
 }
 
 .eventLocation {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .eventDecs {
-    padding-bottom: 2rem;
+	padding-bottom: 2rem;
 }
 
 .news {
-    max-height: 0px;
-    overflow: hidden;
+	max-height: 0px;
+	overflow: hidden;
 }
 
 .news.show {
-    max-height: auto;
-    max-height: 9999px;
+	max-height: auto;
+	max-height: 9999px;
 }
 
 span {
-    color: #D62839
+	color: #d62839;
 }

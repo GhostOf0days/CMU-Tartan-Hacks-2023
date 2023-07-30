@@ -1,10 +1,10 @@
 * {
-  padding:0;
-  margin: 0;
-  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 .App {
-  display: flex;
-  flex: 1;
+	display: flex;
+	flex: 1;
 }
