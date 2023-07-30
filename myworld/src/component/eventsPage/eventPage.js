@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './EventPage.css'
+import './eventPage.css'
 import { FaPlus, FaMinus, FaMapMarkerAlt } from "react-icons/fa";
 import EventData from '../../sampleData/recreationalSample'
 import NavBar from '../navbar/navbar';

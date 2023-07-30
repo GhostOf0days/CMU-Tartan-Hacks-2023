@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import EventPage from './component/eventsPage/EventPage';
+import EventPage from './component/eventsPage/eventPage';
 import LocalPage from './component/eventsPage/localIssues'
 import IdeaPage from './component/eventsPage/ideaPage';
 import {

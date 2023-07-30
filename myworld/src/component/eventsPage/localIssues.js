@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './EventPage.css'
+import './eventPage.css'
 import { FaPlus, FaMinus } from "react-icons/fa";
 import localIssuesSampleData from '../../sampleData/localIssuesSample'
 import NavBar from '../navbar/navbar';
